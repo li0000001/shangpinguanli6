@@ -6,11 +6,5 @@ pluginManagement {
     }
 }
 
-dependencyResolution {
-    eachArtifact {
-        GoalOnFailure.WARN
-    }
-}
-
 rootProject.name = "PreservationManager"
 include ':app'
